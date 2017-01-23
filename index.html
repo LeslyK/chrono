@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>chrono</title>
+	<meta Charset = "UTF-8">
+
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<h1>Chrono</h1>
+
+<form name="forsec">
+<input type="text" size="10" name="secb"> minute(s)
+<input type="text" size="10" name="seca"> secondes
+<input type="text" size="10" name="secc"> dixièmes
+
+
+<input type="button" value="Chrono" onclick="chrono()">
+<input type="button" value="Clear" onclick="efface()">
+<input type="button" value="Pause" onclick="clearsetInterval(compte)">
+
+	</form>
+	<!-- JQuery -->
+	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	 <script src="chrono.js"></script>
+
+</body>
+</html>
